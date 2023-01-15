@@ -1,0 +1,11 @@
+.screen {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  background-color: rgb(227, 255, 127);
+  height: 70px;
+  width: 300px;
+  font-size: clamp(20px, 15vw, 30px);
+  overflow-x: scroll !important;
+}
